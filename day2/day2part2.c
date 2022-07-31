@@ -29,5 +29,6 @@ int main(int argc, char * argv[]) {
             total += (length+width)*2;
         }
     }
+    fclose(fp);
     printf("%d\n",total);
 }
